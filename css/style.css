@@ -77,6 +77,14 @@ a:focus {
   text-decoration: none;
 }
 
+.about_section{
+  background-color: #fff;
+}
+
+.about_navbar{
+  background-color: #fff;
+}
+
 /*header section*/
 .hero_area {
   position: relative;
