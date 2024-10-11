@@ -567,6 +567,14 @@ a:focus {
 
 }
 
+.service_section .box:hover {
+  background-color: #7b1dff;
+  color: #ffffff;
+  border-radius:  30px 60px;
+  height: 445px;
+
+}
+
 /* .service_section .box:hover .img-box img {
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
@@ -599,6 +607,18 @@ a:focus {
   color: #0355cc;
   border-radius: 10px;
 }
+
+.more-text {
+  display: none;  
+  transition: opacity 0.5s ease;
+}
+
+.box:hover .more-text {
+  display: block; 
+  opacity: 1;     
+}
+
+
 
 .client_section .heading_container {
   -webkit-box-align: center;
